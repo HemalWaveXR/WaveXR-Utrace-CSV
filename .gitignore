@@ -1,0 +1,11 @@
+# Large files (use Git LFS for files > 100MB)
+*.csv filter=lfs diff=lfs merge=lfs -text
+
+# Temporary analysis files
+*.tmp
+*.temp
+analysis/temp/
+
+# IDE files
+.vscode/
+.idea/
